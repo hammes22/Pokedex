@@ -1,11 +1,11 @@
-
+import GlobalStyle from "./globalStyled/GlobalStyled";
+import Router from "./routes/Router";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       ola
-      </header>
+      <GlobalStyle />
+      <Router />
     </div>
   );
 }

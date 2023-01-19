@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
     height: 160px;
-    width: 100%;
+    max-width: 100%;
     background-color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);

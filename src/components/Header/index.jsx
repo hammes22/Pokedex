@@ -1,5 +1,5 @@
 import { Button, ButtonContainer, FigureContainer, HeaderContainer } from "./styled";
-import pokemonHeader from "../../imagens/pokemonHeader.svg"
+import pokemonHeader from "../../assets/imagens/pokemonHeader.svg"
 export default function Header() {
     return (
         <HeaderContainer>
@@ -7,7 +7,7 @@ export default function Header() {
                 <img src={pokemonHeader} alt="Pokémon" />
             </FigureContainer>
             <ButtonContainer>
-               <Button>Pokedex</Button>
+                <Button>Pokedex</Button>
             </ButtonContainer>
         </HeaderContainer>
     )

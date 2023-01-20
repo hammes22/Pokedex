@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-    height: 160px;
+    height: 20vh;
     max-width: 100%;
     background-color: white;
     display: grid;
@@ -10,6 +10,7 @@ export const HeaderContainer = styled.header`
 `
 
 export const FigureContainer = styled.figure`
+padding: 10px;
 grid-column: 2;
 `
 

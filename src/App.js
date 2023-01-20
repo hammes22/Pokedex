@@ -1,13 +1,13 @@
 import GlobalStyle from "./globalStyled/GlobalStyled";
 import Router from "./routes/Router";
-
+import { AppContainer } from "./styled";
 
 function App() {
   return (
-    <div className="App">
+    <AppContainer className="App">
       <GlobalStyle />
       <Router />
-    </div>
+    </AppContainer>
   );
 }
 

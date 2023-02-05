@@ -1,7 +1,6 @@
 import styled from "styled-components";
-
 export const HeaderContainer = styled.header`
-    height: 20vh;
+    max-height: 20vh;
     max-width: 100%;
     background-color: white;
     display: grid;
@@ -10,30 +9,30 @@ export const HeaderContainer = styled.header`
 `
 
 export const FigureContainer = styled.figure`
-padding: 10px;
-grid-column: 2;
+  padding: 10px;
+  grid-column: 2;
+  align-self: center;
+  justify-self: center;
 `
 
 export const ButtonContainer = styled.div`
     grid-column: 3;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-self: center;
+    justify-self: center;
     padding: 4px 10px
 `
 
-export const Button = styled.button`
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 36px;
-color: #FFFFFF;
-background-color:  #33A4F5;
-height: 74px;
-width: 287px;
-border-radius: 8px;
-padding: 4px 10px 4px 10px;
-`
+export const DetalhesContainer = styled.div`
+grid-column: 1;
+  align-self: center;
+  justify-self: center;  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  a {
+    color: #000;
+  }
+`;

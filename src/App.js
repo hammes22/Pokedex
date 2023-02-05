@@ -1,13 +1,16 @@
-import GlobalStyle from "./globalStyled/GlobalStyled";
+import GlobalState from "./contexts/GlobalState";
+import { GlobalStyled } from "./globalStyled/GlobalStyled";
 import Router from "./routes/Router";
-import { AppContainer } from "./styled";
+
 
 function App() {
   return (
-    <AppContainer className="App">
-      <GlobalStyle />
-      <Router />
-    </AppContainer>
+    <div className="App">
+      <GlobalState>
+        <GlobalStyled />
+        <Router />
+      </GlobalState>
+    </div>
   );
 }
 

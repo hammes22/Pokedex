@@ -4,12 +4,12 @@ import CardDetails from "../../components/CardDeatils";
 import Header from "../../components/Header";
 import TitlePage from "../../components/TitlePage";
 import { GlobalContext } from "../../contexts/GlobalContext";
-import { useProtectPageDeatils } from "../../hooks/useProtectPageDeatils";
+import { useProtectPageDetails } from "../../hooks/useProtectPageDetails";
 import { DetailsContainer, MainDetails } from "./styled";
 
 export default function DetailsPage() {
     const { state } = useLocation()
-    useProtectPageDeatils(state)
+    useProtectPageDetails(state)
     const context = useContext(GlobalContext);
     const { changeHeader, headerDetails } = context.headerSettings
     useEffect(() => {

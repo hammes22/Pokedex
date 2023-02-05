@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+import  { useState } from "react";
+
 
 export default function usePokedex() {
   const [pokedex, setPokedex] = useState([]);

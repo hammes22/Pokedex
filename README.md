@@ -11,9 +11,9 @@ Este projeto tem como fonte de dados a [Poke Api](https://pokeapi.co/ "Poke Api"
 
 - <a href="#funcionalidades">Funcionalidades do projeto</a>
 - <a href="#layout">Layout</a>
-- <a href="#demonstracao">Demonstração</a>
-- <a href="#tecnologias">Tecnologias Utilizadas</a>
-- <a href="#rodar"> Como Rodar este projeto</a>
+- <a href="#Demonstração">Demonstração</a>
+- <a href="#Tecnologias">Tecnologias Utilizadas</a>
+- <a href="#Como"> Como Rodar este projeto</a>
 
 ## **Funcionalidades do Projeto**
 
@@ -53,7 +53,7 @@ Este projeto tem como fonte de dados a [Poke Api](https://pokeapi.co/ "Poke Api"
 
 ### **Demonstração**
 
-[Link demostração](https://pokemondb.net/pokedex)
+[Link demostração](https://repulsive-knife.surge.sh/)
 
 ### **Tecnologias Utilizadas**
 
@@ -69,10 +69,10 @@ Este projeto tem como fonte de dados a [Poke Api](https://pokeapi.co/ "Poke Api"
 
 ```bash
 # Clone este repositório
-$ git clone linkrepo
+$ git clone https://github.com/hammes22/Pokedex.git
 
 # Acesse a pasta do seu projeto no seu terminal
-cd projeto-react-apis
+cd Pokedex
 
 # Instale as dependências
 $ npm install
@@ -90,5 +90,3 @@ Bruno Hammes da Cruz
 [Linkedin](https://www.linkedin.com/in/bruno-hammes-80ba9214b/)
 
 [GitHub](https://github.com/hammes22)
-
-

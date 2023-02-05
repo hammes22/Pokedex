@@ -40,7 +40,6 @@ export default function HomePage() {
           {pokemons.map((pokemon) => {
             return <PokemonCard key={pokemon.id} pokemon={pokemon} />;
           })}
-          {onLoad && <p>"Carregado"</p>}
         </CardsContainer>
       </>
     )
@@ -58,14 +57,15 @@ export default function HomePage() {
         <Header />
 
         {onLoad ? loading() : cards()}
-        <Footer>
+        {!onLoad && <Footer>
           <Pagination
             limit={limit}
             total={count}
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
           />
-        </Footer>
+        </Footer>}
+
       </HomePageContainer>
     </>
 

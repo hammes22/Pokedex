@@ -16,4 +16,5 @@ export const typeNames = {
   rock: "rock",
   steel: "steel",
   water: "water",
+  ghost: "ghost",
 };

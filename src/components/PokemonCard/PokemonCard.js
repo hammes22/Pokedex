@@ -46,7 +46,10 @@ const PokemonCard = ({ pokemon , page}) => {
         color={"#000"}
         onClick={() => {
           openModal(action.add);
-          addPokedex(pokemon);
+          setTimeout(()=>{
+            addPokedex(pokemon);
+          },1500)
+          
         }}
       >
         Capturar!

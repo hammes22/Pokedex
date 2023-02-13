@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import CardDetails from "../../components/CardDeatils";
+import CardDetails from "../../components/CardDetails";
 import Header from "../../components/Header";
 import TitlePage from "../../components/TitlePage";
 import { GlobalContext } from "../../contexts/GlobalContext";

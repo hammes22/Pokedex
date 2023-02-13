@@ -16,6 +16,7 @@ export default function HomePage() {
   const context = useContext(GlobalContext);
 
   const { changeHeader, headerAllPokemons } = context.headerSettings
+  const { inPokedex } = context.pokedex
   const { pokemons, pokemonList, requestPokemon, onLoad } = useRequestPokemon()
   const { count } = pokemonList
   const [currentPage, setCurrentPage] = useState(1);
@@ -37,7 +38,7 @@ export default function HomePage() {
       <>
         <TitlePage title={"Todos Pokémons"} />
         <CardsContainer>
-          {pokemons.map((pokemon) => {
+          {pokemons.filter((p) => inPokedex(p.id)).map((pokemon) => {
             return <PokemonCard key={pokemon.id} pokemon={pokemon} />;
           })}
         </CardsContainer>
